@@ -54,3 +54,7 @@ RequestHeader add X-Forwarded-Remote-User %{REMOTE_USER}e #http
 RequestHeader add X-Forwarded-Remote-User %{REMOTE_USER}s #https
 </Proxy>
 ```
+
+## Possible Enhancements
+
+Right now any valid Joomla login with authenticate. To segment users, a Joomla component with ACL is needed. The cli script can then no only check if the login is valid but also if the user is authorized with to authenticate via mod_authnz_external.
