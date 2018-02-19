@@ -2,6 +2,8 @@
 
 The cli script provided here allows Apache mod_authnz_external to authenticate with Joomla's built in authentication mechanisms. This was tested with Joomla 3.8.5, Apache 2.4.18, and Ubuntu 16.04.
 
+This was writted to authenticate (Redahs)[https://redash.io/] with (Joomla)[https://joomla.org]. A more detailed explanation can be found (here)[https://blackbricksoftware.com/bit-on-bytes/173-authenticating-redash-with-joomla-using-mod-authnz-external].
+
 ## Joomla Configuration
 
 Upload `modauthnzexternal.php` to the `cli` directory in a Joomla installation. Make this file executable (`chmod +x modauthnzexternal.php`).
